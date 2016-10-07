@@ -1,7 +1,9 @@
 #!/bin/bash
 
 export ARCH=arm
-export CROSS_COMPILE=/build/j500fn/linaro/gcc-linaro-arm-none-eabi-4.8-2014.04_linux/bin/arm-none-eabi-
+#export CROSS_COMPILE=/build/j500fn/linaro/gcc-linaro-arm-none-eabi-4.8-2014.04_linux/bin/arm-none-eabi-
+export CROSS_COMPILE=/build/j500fnmm/prebuilts/gcc/linux-x86/arm/arm-linux-eabi-UB-4.9/bin/arm-eabi-
+
 mkdir output
 
 make -C $(pwd) O=output msm8916_sec_defconfig VARIANT_DEFCONFIG=msm8916_sec_j5nlte_eur_defconfig SELINUX_DEFCONFIG=selinux_defconfig
