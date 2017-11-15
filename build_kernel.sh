@@ -2,7 +2,7 @@
 
 export ARCH=arm
 
-export CROSS_COMPILE=/home/vasy/google-4.9/bin/arm-eabi-
+export CROSS_COMPILE=/home/vasy/google-4.8/bin/arm-eabi-
 
 mkdir output
 
