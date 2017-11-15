@@ -1,8 +1,8 @@
 #!/bin/bash
 
 export ARCH=arm
-#export CROSS_COMPILE=/build/j500fn/linaro/gcc-linaro-arm-none-eabi-4.8-2014.04_linux/bin/arm-none-eabi-
-export CROSS_COMPILE=/build/j500fnmm/prebuilts/gcc/linux-x86/arm/arm-linux-eabi-UB-4.9/bin/arm-eabi-
+
+export CROSS_COMPILE=/home/vasy/google-4.9/bin/arm-eabi-
 
 mkdir output
 
